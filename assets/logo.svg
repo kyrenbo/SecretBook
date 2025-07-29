@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="16" cy="16" r="15" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  
+  <!-- 锁的主体 -->
+  <rect x="11" y="15" width="10" height="8" rx="1" fill="#FFF"/>
+  
+  <!-- 锁的环 -->
+  <path d="M13 15 V12 C13 10.3 14.3 9 16 9 C17.7 9 19 10.3 19 12 V15" 
+        stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- 锁孔 -->
+  <circle cx="16" cy="18" r="1.5" fill="#4CAF50"/>
+  <rect x="15.5" y="18" width="1" height="2" fill="#4CAF50"/>
+  
+  <!-- 装饰性星星 -->
+  <circle cx="8" cy="8" r="1" fill="#81C784" opacity="0.7"/>
+  <circle cx="24" cy="10" r="0.8" fill="#81C784" opacity="0.5"/>
+  <circle cx="6" cy="24" r="0.6" fill="#81C784" opacity="0.6"/>
+</svg>
