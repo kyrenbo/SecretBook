@@ -141,3 +141,9 @@ SecretBook/
 ---
 
 **记住：安全的密码管理是数字生活的基础！** 🔐
+
+## 打包
+```shell
+pip install pyinstaller
+python -m PyInstaller --onefile --icon=assets/app.ico --windowed main.py
+```
